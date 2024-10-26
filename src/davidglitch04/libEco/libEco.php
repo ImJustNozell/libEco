@@ -13,9 +13,6 @@ use pocketmine\Server as PMServer;
 
 final class libEco
 {
-    /**
-     * @return array<string, object>
-     */
     private static function getEconomy(): array
     {
         $api = PMServer::getInstance()->getPluginManager()->getPlugin('EconomyAPI');
@@ -36,9 +33,6 @@ final class libEco
         return !is_null($this->getEconomy()[0]);
     }
 
-    /**
-     * @return int
-     */
     public static function myMoney(Player $player, Closure $callback): void
     {
         if (self::getEconomy()[0] === Utils::ECONOMYAPI) {

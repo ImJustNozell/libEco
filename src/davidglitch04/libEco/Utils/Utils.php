@@ -6,7 +6,6 @@ final class Utils {
 
     public function __construct()
     {
-        //NOTHING
     }
 
 	public const ECONOMYAPI = "EconomyAPI";

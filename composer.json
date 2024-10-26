@@ -8,5 +8,7 @@
             "Davidglitch04\\Libeco\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "pocketmine/pocketmine-mp": "^5.19"
+    }
 }
