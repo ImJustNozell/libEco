@@ -1,5 +1,5 @@
 {
-    "name": "davidglitch04/libeco",
+    "name": "nozell/libeco",
     "description": "Make it easier for developers to use the economic plugin",
     "type": "library",
     "license": "GPL-3.0",
